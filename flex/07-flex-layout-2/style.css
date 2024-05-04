@@ -22,8 +22,16 @@ body {
 }
 
 .cards {
+  padding: 25px;
+  background-color: #FFF;
   display: flex;
   flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  padding: 25px;
+  width: 250px;
 }
 
 .footer {
@@ -39,6 +47,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 
 }
 
